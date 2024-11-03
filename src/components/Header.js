@@ -1,9 +1,9 @@
 import React from 'react';
-// import logo from '../../public/assets/images/icons_assets/Logo.svg';
+import Logo from '../assets/images/icons_assets/Logo.svg';
 function Header() {
   return (
     <header>
-      {/* <img src={logo} alt="Little Lemon Logo" /> */}
+      <img src={Logo} alt="Little Lemon Logo" />
     </header>
   );
 }
